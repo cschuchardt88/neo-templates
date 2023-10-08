@@ -7,10 +7,14 @@ using Neo.SmartContract.Framework.Services;
 using System;
 using System.ComponentModel;
 
-namespace newcontractownerclass;
+namespace NewContractOwnerClass;
 
 [DisplayName("TemplateContractName")]
-[ContractSourceCode("https://github.com/cschuchardt88/neo-examples-csharp")]
+[ManifestExtra("Author", "<Your Name Or Company Here>")]
+[ManifestExtra("Description", "<Description Here>")]
+[ManifestExtra("Email", "<Your Public Email Here>")]
+[ManifestExtra("Version", "<Version String Here>")]
+[ContractSourceCode("https://github.com/cschuchardt88/neo-templates")]
 [ContractPermission("*", "*")]
 public class TemplateContractName : Nep17Token
 {

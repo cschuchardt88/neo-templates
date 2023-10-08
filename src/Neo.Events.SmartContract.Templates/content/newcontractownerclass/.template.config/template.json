@@ -1,11 +1,11 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "name": "Neo Smart Contract Class (with a Owner)",
-  "shortName": "neewcontractownerclass",
+  "shortName": "neocontractownerclass",
   "author": "Christopher Schuchardt",
   "classifications": [ "neo", "smart contract", "class" ],
   "identity": "Neo.Events.SmartContracts.OwnerClass",
-  "sourceName": "newcontractownerclass",
+  "sourceName": "NewContractOwnerClass",
   "tags": {
     "language": "C#",
     "type": "item"

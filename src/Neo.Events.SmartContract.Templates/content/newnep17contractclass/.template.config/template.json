@@ -1,11 +1,11 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "name": "Neo NEP-17 Smart Contract Class",
-  "shortName": "newnep17contractclass",
+  "shortName": "neonep17contractclass",
   "author": "Christopher Schuchardt",
   "classifications": [ "neo", "smart contract", "class", "nep-17" ],
   "identity": "Neo.Events.SmartContracts.NewNep17Contract",
-  "sourceName": "newnep17contractclass",
+  "sourceName": "NewNep17ContractClass",
   "tags": {
     "language": "C#",
     "type": "item"

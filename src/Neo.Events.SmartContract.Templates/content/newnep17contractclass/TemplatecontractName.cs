@@ -8,12 +8,16 @@ using System;
 using System.ComponentModel;
 using System.Numerics;
 
-namespace newnep17contractclass;
+namespace NewNep17ContractClass;
 
 [DisplayName("TemplateContractName")]
-[ContractSourceCode("https://github.com/cschuchardt88/neo-examples-csharp")]
-[SupportedStandards("NEP-17")]
+[ManifestExtra("Author", "<Your Name Or Company Here>")]
+[ManifestExtra("Description", "<Description Here>")]
+[ManifestExtra("Email", "<Your Public Email Here>")]
+[ManifestExtra("Version", "<Version String Here>")]
+[ContractSourceCode("https://github.com/cschuchardt88/neo-templates")]
 [ContractPermission("*", "*")]
+[SupportedStandards("NEP-17")]
 public class TemplateContractName : Nep17Token
 {
     #region Owner

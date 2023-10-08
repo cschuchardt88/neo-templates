@@ -4,13 +4,13 @@ using Neo.SmartContract.Framework.Native;
 
 using System.ComponentModel;
 
-namespace smartcontract;
+namespace SmartContract;
 
 [DisplayName("TemplateContractName")]
 [ManifestExtra("Author", "TemplateContractAuthor")]
 [ManifestExtra("Description", "TemplateContractDescription")]
 [ManifestExtra("Email", "TemplateContractEmail")]
-[ManifestExtra("Version", "1.0.0")]
+[ManifestExtra("Version", "<Version String Here>")]
 [ContractSourceCode("https://github.com/cschuchardt88/neo-templates")]
 [ContractPermission("*", "*")]
 public class TemplateContractName : SmartContract

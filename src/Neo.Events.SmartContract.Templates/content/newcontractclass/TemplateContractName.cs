@@ -4,19 +4,17 @@ using Neo.SmartContract.Framework.Native;
 
 using System.ComponentModel;
 
-namespace newcontractclass;
+namespace NewContractClass;
 
 [DisplayName("TemplateContractName")]
+[ManifestExtra("Author", "<Your Name Or Company Here>")]
+[ManifestExtra("Description", "<Description Here>")]
+[ManifestExtra("Email", "<Your Public Email Here>")]
+[ManifestExtra("Version", "<Version String Here>")]
 [ContractSourceCode("https://github.com/cschuchardt88/neo-templates")]
 [ContractPermission("*", "*")]
 public class TemplateContractName : SmartContract
 {
-    [Safe]
-    public static string SayHello(string name)
-    {
-        return "Hello, " + name;
-    }
-
     [DisplayName("_deploy")]
     public static void OnDeployment(object data, bool update)
     {
