@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "name": "Neo Smart Contract Project (Empty)",
+  "shortName": "neoemptyproject",
+  "sourceName": "NeoSmartContractEmptyProject",
+  "description": "Smart contract for neo n3 blockchain.",
+  "author": "Christopher Schuchardt",
+  "classifications": [ "neo", "smart contract", "empty" ],
+  "identity": "Neo.Events.Templates.Empty",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "preferNameDirectory": true,
+  "symbols": {
+    "NeoVersion": {
+      "type": "parameter",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "3.6.0"
+        }
+      ],
+      "defaultValue": "3.6.0",
+      "replaces": "TemplateNeoVersion"
+    }
+  }
+}

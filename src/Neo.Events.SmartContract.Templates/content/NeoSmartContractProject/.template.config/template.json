@@ -1,12 +1,12 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "name": "Neo Blockchain Smart Contract",
+  "name": "Neo Smart Contract Project (Basic)",
   "shortName": "neosmartcontract",
-  "sourceName": "SmartContract",
+  "sourceName": "NeoSmartContractProject",
   "description": "Smart contract for neo n3 blockchain.",
   "author": "Christopher Schuchardt",
-  "classifications": [ "neo", "smart contract" ],
-  "identity": "Neo.Events.SmartContract.Templates",
+  "classifications": [ "neo", "smart contract", "basic" ],
+  "identity": "Neo.Events.Templates",
   "tags": {
     "language": "C#",
     "type": "project"

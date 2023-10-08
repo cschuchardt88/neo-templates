@@ -8,7 +8,7 @@ using System;
 using System.ComponentModel;
 using System.Numerics;
 
-namespace NewNep17ContractClass;
+namespace NewNeoNep17ContractClass;
 
 [DisplayName("TemplateContractName")]
 [ManifestExtra("Author", "<Your Name Or Company Here>")]

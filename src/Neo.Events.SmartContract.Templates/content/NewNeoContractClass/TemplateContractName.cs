@@ -4,7 +4,7 @@ using Neo.SmartContract.Framework.Native;
 
 using System.ComponentModel;
 
-namespace NewContractClass;
+namespace NewNeoContractClass;
 
 [DisplayName("TemplateContractName")]
 [ManifestExtra("Author", "<Your Name Or Company Here>")]

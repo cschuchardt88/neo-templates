@@ -4,8 +4,8 @@
   "shortName": "neocontractownerclass",
   "author": "Christopher Schuchardt",
   "classifications": [ "neo", "smart contract", "class" ],
-  "identity": "Neo.Events.SmartContracts.OwnerClass",
-  "sourceName": "NewContractOwnerClass",
+  "identity": "Neo.Events.ContractOwnerClass",
+  "sourceName": "NewNeoContractOwnerClass",
   "tags": {
     "language": "C#",
     "type": "item"

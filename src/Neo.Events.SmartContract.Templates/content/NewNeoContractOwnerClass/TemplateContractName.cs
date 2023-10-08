@@ -7,7 +7,7 @@ using Neo.SmartContract.Framework.Services;
 using System;
 using System.ComponentModel;
 
-namespace NewContractOwnerClass;
+namespace NewNeoContractOwnerClass;
 
 [DisplayName("TemplateContractName")]
 [ManifestExtra("Author", "<Your Name Or Company Here>")]
