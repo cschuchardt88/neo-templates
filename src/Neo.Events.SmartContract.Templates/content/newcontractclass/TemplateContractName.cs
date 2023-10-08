@@ -4,10 +4,11 @@ using Neo.SmartContract.Framework.Native;
 
 using System.ComponentModel;
 
-namespace smartcontract;
+namespace newcontractclass;
 
 [DisplayName("TemplateContractName")]
 [ContractSourceCode("https://github.com/cschuchardt88/neo-templates")]
+[ContractPermission("*", "*")]
 public class TemplateContractName : SmartContract
 {
     [Safe]

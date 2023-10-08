@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "name": "Neo NEP-17 Smart Contract Class",
+  "shortName": "newnep17contractclass",
+  "author": "Christopher Schuchardt",
+  "classifications": [ "neo", "smart contract", "class", "nep-17" ],
+  "identity": "Neo.Events.SmartContracts.NewNep17Contract",
+  "sourceName": "newnep17contractclass",
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  },
+  "symbols": {
+    "ClassName":{
+      "type": "parameter",
+      "description": "Creates a new Neo nep-17 smart contract class.",
+      "datatype": "text",
+      "replaces": "TemplateContractName",
+      "fileRename": "TemplateContractName",
+      "defaultValue": "ContractCoin1"
+    },
+    "ContractOwner":{
+      "type": "parameter",
+      "description": "Neo n3 wallet address of the contract owner.",
+      "datatype": "text",
+      "replaces": "NUuJw4C4XJFzxAvSZnFTfsNoWZytmQKXQP",
+      "isRequired": true
+    },
+    "ContractSymbol":{
+      "type": "parameter",
+      "description": "a short name for the token 3-5 characters.",
+      "datatype": "text",
+      "replaces": "EXAMPLE",
+      "isRequired": true
+    }
+  }
+  }

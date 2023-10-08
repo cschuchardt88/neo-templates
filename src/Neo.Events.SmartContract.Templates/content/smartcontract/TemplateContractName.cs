@@ -12,6 +12,7 @@ namespace smartcontract;
 [ManifestExtra("Email", "TemplateContractEmail")]
 [ManifestExtra("Version", "1.0.0")]
 [ContractSourceCode("https://github.com/cschuchardt88/neo-templates")]
+[ContractPermission("*", "*")]
 public class TemplateContractName : SmartContract
 {
     [Safe]

@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "name": "Neo Smart Contract Class (with a Owner)",
+  "shortName": "neewcontractownerclass",
+  "author": "Christopher Schuchardt",
+  "classifications": [ "neo", "smart contract", "class" ],
+  "identity": "Neo.Events.SmartContracts.OwnerClass",
+  "sourceName": "newcontractownerclass",
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  },
+  "symbols": {
+    "ClassName": {
+      "type": "parameter",
+      "description": "Neo smart contract class that implements a contract owner.",
+      "datatype": "text",
+      "replaces": "TemplateContractName",
+      "fileRename": "TemplateContractName",
+      "defaultValue": "Contract1"
+    },
+    "ContractOwner": {
+      "type": "parameter",
+      "description": "Neo n3 wallet address of the contract owner.",
+      "datatype": "text",
+      "replaces": "NUuJw4C4XJFzxAvSZnFTfsNoWZytmQKXQP",
+      "isRequired": true
+    }
+  }
+}

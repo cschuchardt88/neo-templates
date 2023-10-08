@@ -3,8 +3,9 @@
   "name": "Neo Smart Contract Class",
   "shortName": "newcontractclass",
   "author": "Christopher Schuchardt",
-  "classifications": [ "neo", "smart contract", "class" ],
-  "identity": "Neo.Events.SmartContracts.Items.NewClass",
+  "classifications": [ "neo", "smart contract", "class", "basic" ],
+  "identity": "Neo.Events.SmartContracts.BasicClass",
+  "sourceName": "newcontractclass",
   "tags": {
     "language": "C#",
     "type": "item"
@@ -12,7 +13,7 @@
   "symbols": {
     "ClassName":{
       "type": "parameter",
-      "description": "creates a new Neo smart contract class.",
+      "description": "Neo smart contract class.",
       "datatype": "text",
       "replaces": "TemplateContractName",
       "fileRename": "TemplateContractName",
