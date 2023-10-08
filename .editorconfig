@@ -1,0 +1,16 @@
+# Remove the line below if you want to inherit .editorconfig settings from higher directories
+root = true
+
+# Every file
+[*]
+
+#### Core EditorConfig Options ####
+charset = utf-8
+
+# Indentation and spacing
+indent_style = space
+trim_trailing_whitespace = true
+
+# New line preferences
+end_of_line = lf
+insert_final_newline = true

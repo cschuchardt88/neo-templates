@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "name": "Neo Smart Contract Class",
+  "shortName": "newcontractclass",
+  "author": "Christopher Schuchardt",
+  "classifications": [ "neo", "smart contract", "class" ],
+  "identity": "Neo.Events.SmartContracts.Items.NewClass",
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  },
+  "symbols": {
+    "ClassName":{
+      "type": "parameter",
+      "description": "creates a new Neo smart contract class.",
+      "datatype": "text",
+      "replaces": "TemplateContractName",
+      "fileRename": "TemplateContractName",
+      "defaultValue": "Contract1"
+    }
+  }
+}

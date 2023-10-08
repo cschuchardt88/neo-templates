@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+      
+    <Title>Neo blockchain smart contract templetes</Title>
+    <Authors>Christopher Schuchardt</Authors>
+    <Company>Neo-Events</Company>
+    <Copyright>2023 Christopher Schuchardt</Copyright>
+
+    <PackageId>Neo.Events.SmartContract.Templates</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageProjectUrl>https://github.com/cschuchardt88/neo-templates</PackageProjectUrl>
+    <PackageIcon>neo.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/cschuchardt88/neo-templates.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>neo-events;neo;smart-contracts;templates;neo-project</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+    <PackageType>Template</PackageType>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <LocalizeTemplates>false</LocalizeTemplates>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.TemplateEngine.Tasks" Version="*" PrivateAssets="all" IsImplicitlyDefined="true" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="content\**\*" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="" />
+    <None Include="neo.png" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "name": "Neo Blockchain Smart Contract",
+  "shortName": "smartcontract",
+  "sourceName": "smartcontract",
+  "description": "Smart contract for neo n3 blockchain.",
+  "author": "Christopher Schuchardt",
+  "classifications": [ "neo", "smart contracts" ],
+  "identity": "Neo.Events.SmartContract.Templates",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "preferNameDirectory": true,
+  "symbols": {
+    "Neo-Version": {
+      "type": "parameter",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "3.6.0"
+        }
+      ],
+      "defaultValue": "3.6.0",
+      "replaces": "TemplateNeoVersion"
+    },
+    "Contract-Name": {
+      "type": "parameter",
+      "datatype": "text",
+      "defaultValue": "MyContract",
+      "replaces": "TemplateContractName",
+      "fileRename": "TemplateContractName"
+    },
+    "Contract-Author": {
+      "type": "parameter",
+      "datatype": "text",
+      "defaultValue": "",
+      "replaces": "TemplateContractAuthor"
+    },
+    "Contract-Description": {
+      "type": "parameter",
+      "datatype": "text",
+      "defaultValue": "",
+      "replaces": "TemplateContractDescription"
+    },
+    "Contract-Email": {
+      "type": "parameter",
+      "datatype": "text",
+      "defaultValue": "",
+      "replaces": "TemplateContractEmail"
+    }
+  }
+}
