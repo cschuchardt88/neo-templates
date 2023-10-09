@@ -2,7 +2,7 @@
 Neo blockchain C# templates for dotnet-new
 
 # How to Install
-type the following command in a terminal.
+Type the following command in a terminal.
 ```
 tux@PC01:~/$ dotnet new install NeoEvents.SmartContract.Templates
 ```
@@ -21,6 +21,7 @@ Neo Smart Contract Project (Empty)       neoemptyproject        [C#]      neo/sm
 
 
 # How to Create & Build a Project
+Type in a terminal the following commands:
 ```
 tux@PC01:~/Downloads$ dotnet new neosmartcontract -o MyContract
 tux@PC01:~/Downloads$ cd MyContract

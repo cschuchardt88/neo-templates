@@ -15,6 +15,7 @@ Neo Smart Contract Project (Empty)       neoemptyproject        [C#]      neo/sm
 
 
 # How to Create & Build a Project
+Type in a terminal the following commands:
 ```
 tux@PC01:~/Downloads$ dotnet new neosmartcontract -o MyContract
 tux@PC01:~/Downloads$ cd MyContract
