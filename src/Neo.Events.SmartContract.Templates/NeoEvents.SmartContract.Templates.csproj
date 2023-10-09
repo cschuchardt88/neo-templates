@@ -6,7 +6,7 @@
       
     <Title>Neo blockchain smart contract templetes</Title>
     <Authors>neo-events;Christopher Schuchardt</Authors>
-    <Description>Neo blockchain C# templates for dotnet-new cli.</Description>
+    <Description>Neo blockchain C# templates for dotnet-new.</Description>
     <Company>Neo-Events</Company>
     <Copyright>2023 Christopher Schuchardt</Copyright>
 

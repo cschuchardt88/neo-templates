@@ -1,7 +1,7 @@
 # This workflow will build a .NET project
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
 
-name: .NET Pack
+name: .NET Pack / Publish on Github
 
 on:
   push:
@@ -12,7 +12,7 @@ env:
     DOTNET_VERSION: 7.0.x
 
 jobs:
-  Test:
+  Pack:
 
     runs-on: ubuntu-latest
 
@@ -28,5 +28,5 @@ jobs:
       run: dotnet nuget add source --username cschuchardt88 --password ${{ secrets.NUGET_API_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/cschuchardt88/index.json"
     - name: Dotnet Pack Packages
       run: dotnet pack -c Release -o .
-    - name: Publish NeoEvents.SmartContract.Templates Package
+    - name: Dotnet Publish NeoEvents.SmartContract.Templates Package ${VERSION}
       run: dotnet nuget push "NeoEvents.SmartContract.Templates.${VERSION}.nupkg" --api-key ${{ secrets.NUGET_API_TOKEN }} --source "github"
