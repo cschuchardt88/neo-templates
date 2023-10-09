@@ -4,7 +4,7 @@ Neo blockchain C# templates for dotnet-new cli.
 # How to Install
 Download the `nuget` package than type the following command in a terminal.
 ```
-tux@PC01:~/Downloads$ dotnet new install .\Neo-Events.SmartContract.Templates.1.0.0.nupkg
+tux@PC01:~/Downloads$ dotnet new install .\NeoEvents.SmartContract.Templates.1.0.0.nupkg
 ```
 
 # List of Templates

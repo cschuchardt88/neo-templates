@@ -9,7 +9,7 @@
     <Company>Neo-Events</Company>
     <Copyright>2023 Christopher Schuchardt</Copyright>
 
-    <PackageId>Neo.Events.SmartContract.Templates</PackageId>
+    <PackageId>NeoEvents.SmartContract.Templates</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
     <PackageProjectUrl>https://github.com/cschuchardt88/neo-templates</PackageProjectUrl>
     <PackageIcon>neo.png</PackageIcon>

@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3B4D2E85-0D81-435F-BBF8-36558C52679C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Neo-Events.SmartContract.Templates", "src\Neo.Events.SmartContract.Templates\Neo-Events.SmartContract.Templates.csproj", "{723FD16C-3A5A-402E-BFF6-F19715790206}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Neo.Events.SmartContract.Templates", "src\Neo.Events.SmartContract.Templates\Neo.Events.SmartContract.Templates.csproj", "{723FD16C-3A5A-402E-BFF6-F19715790206}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{2C761A40-12C0-4BF6-A619-AF1A2DBBDEE0}"
 	ProjectSection(SolutionItems) = preProject
