@@ -6,11 +6,12 @@
       
     <Title>Neo blockchain smart contract templetes</Title>
     <Authors>neo-events;Christopher Schuchardt</Authors>
+    <Description>Neo blockchain C# templates for dotnet-new cli.</Description>
     <Company>Neo-Events</Company>
     <Copyright>2023 Christopher Schuchardt</Copyright>
 
     <PackageId>NeoEvents.SmartContract.Templates</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.1.0</PackageVersion>
     <PackageProjectUrl>https://github.com/cschuchardt88/neo-templates</PackageProjectUrl>
     <PackageIcon>neo.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -32,6 +33,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="content\NeoOracleContractProject\dotnet-tools.json" />
     <None Remove="content\NeoSmartContractEmptyProject\dotnet-tools.json" />
   </ItemGroup>
 

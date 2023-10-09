@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "name": "Neo Oracle Smart Contract Project",
+  "shortName": "neooracleproject",
+  "sourceName": "NeoOracleContractProject",
+  "description": "Oracle Smart contract for neo n3 blockchain.",
+  "author": "Christopher Schuchardt",
+  "classifications": [ "neo", "smart contract", "oracle" ],
+  "identity": "Neo.Events.Templates.OracleContract",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "preferNameDirectory": true,
+  "symbols": {
+    "NeoVersion": {
+      "type": "parameter",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "3.6.0"
+        }
+      ],
+      "defaultValue": "3.6.0",
+      "replaces": "TemplateNeoVersion"
+    },
+    "ContractName": {
+      "type": "parameter",
+      "datatype": "text",
+      "defaultValue": "OracleContract1",
+      "replaces": "TemplateContractName",
+      "fileRename": "TemplateContractName"
+    },
+    "ContractAuthor": {
+      "type": "parameter",
+      "datatype": "text",
+      "defaultValue": "<Your Name Or Company Here>",
+      "replaces": "TemplateContractAuthor"
+    },
+    "ContractDescription": {
+      "type": "parameter",
+      "datatype": "text",
+      "defaultValue": "<Description Here>",
+      "replaces": "TemplateContractDescription"
+    },
+    "ContractEmail": {
+      "type": "parameter",
+      "datatype": "text",
+      "defaultValue": "<Your Public Email Here>",
+      "replaces": "TemplateContractEmail"
+    }
+  }
+}

@@ -1,4 +1,4 @@
-# Neo.Events.SmartContract.Templates
+# NeoEvents.SmartContract.Templates
 Neo blockchain C# templates for dotnet-new cli.
 
 # List of Templates
@@ -6,6 +6,7 @@ Neo blockchain C# templates for dotnet-new cli.
 Template Name                            Short Name             Language  Tags
 ---------------------------------------  ---------------------  --------  -------------------------------
 Neo NEP-17 Smart Contract Class          neonep17contractclass  [C#]      neo/smart contract/class/nep-17
+Neo Oracle Smart Contract Project        neooracleproject       [C#]      neo/smart contract/oracle
 Neo Smart Contract Class                 neocontractclass       [C#]      neo/smart contract/class/basic
 Neo Smart Contract Class (with a Owner)  neocontractownerclass  [C#]      neo/smart contract/class
 Neo Smart Contract Project (Basic)       neosmartcontract       [C#]      neo/smart contract/basic
