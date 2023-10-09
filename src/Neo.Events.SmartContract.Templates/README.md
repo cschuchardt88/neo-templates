@@ -13,7 +13,7 @@ Neo Smart Contract Project (Empty)       neoemptyproject        [C#]      neo/sm
 ```
 
 
-# How to Create & Build Project
+# How to Create & Build a Project
 ```
 tux@PC01:~/Downloads$ dotnet new neosmartcontract -o MyContract
 tux@PC01:~/Downloads$ cd MyContract
