@@ -28,5 +28,5 @@ jobs:
       run: dotnet nuget add source --username cschuchardt88 --password ${{ secrets.NUGET_API_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/cschuchardt88/index.json"
     - name: Dotnet Pack Packages
       run: dotnet pack -c Release -o .
-    - name: Dotnet Publish NeoEvents.SmartContract.Templates Package ${VERSION}
+    - name: Dotnet Publish NeoEvents.SmartContract.Templates Package
       run: dotnet nuget push "NeoEvents.SmartContract.Templates.${VERSION}.nupkg" --api-key ${{ secrets.NUGET_API_TOKEN }} --source "github"
