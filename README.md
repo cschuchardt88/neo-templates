@@ -1,6 +1,10 @@
 # neo-templates
 Neo blockchain C# templates for dotnet-new
 
+## Contract Support
+- `neo` v3.6.0
+- `dotnet` v7.0
+
 # How to Install
 Type the following command in a terminal.
 ```
