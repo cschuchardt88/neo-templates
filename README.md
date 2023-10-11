@@ -3,7 +3,7 @@ Neo blockchain C# templates for dotnet-new
 
 ## Contract Support
 - `neo` v3.6.0
-- `nccs` 3.5.0
+- `nccs` 3.6.0
 - `dotnet` v7.0
 
 # How to Install
