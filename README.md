@@ -7,6 +7,7 @@ This package includes smart contracts and unit tests templates.
 - `neo` v3.6.0
 - `nccs` 3.6.0
 - `dotnet` v7.0
+- `neo-express` v3.5.20
 
 # How to Install
 Type the following command in a terminal.
