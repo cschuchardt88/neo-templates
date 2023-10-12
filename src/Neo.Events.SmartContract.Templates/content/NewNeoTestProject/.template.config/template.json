@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "name": "Neo Smart Contract Test Project",
+  "shortName": "neosmartcontracttest",
+  "sourceName": "NewNeoTestProject",
+  "description": "Test your neo smart contract(s)",
+  "author": "Christopher Schuchardt",
+  "classifications": [ "neo", "smart contract", "test", "xunit" ],
+  "identity": "Neo.Events.Templates.Test",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "preferNameDirectory": true,
+  "symbols": {
+    "NeoVersion": {
+      "type": "parameter",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "3.6.0"
+        }
+      ],
+      "defaultValue": "3.6.0",
+      "replaces": "TemplateNeoVersion"
+    },
+    "NeoExpressVersion": {
+      "type": "parameter",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "3.5.20"
+        }
+      ],
+      "defaultValue": "3.5.20",
+      "replaces": "TemplateExpressVersion"
+    },
+    "ContractName": {
+      "type": "parameter",
+      "datatype": "text",
+      "defaultValue": "Contract1",
+      "replaces": "TemplateContractName",
+      "fileRename": "TemplateContractName"
+    }
+  }
+}

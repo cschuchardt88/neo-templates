@@ -6,18 +6,18 @@
       
     <Title>Neo blockchain smart contract templetes</Title>
     <Authors>neo-events;Christopher Schuchardt</Authors>
-    <Description>Neo blockchain C# templates for dotnet-new.</Description>
+    <Description>Neo blockchain C# templates for dotnet-new. This package includes smart contracts and unit tests.</Description>
     <Company>Neo-Events</Company>
     <Copyright>2023 Christopher Schuchardt</Copyright>
 
     <PackageId>NeoEvents.SmartContract.Templates</PackageId>
-    <PackageVersion>1.1.0</PackageVersion>
+    <PackageVersion>1.1.1</PackageVersion>
     <PackageProjectUrl>https://github.com/cschuchardt88/neo-templates</PackageProjectUrl>
     <PackageIcon>neo.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/cschuchardt88/neo-templates.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>neo;smart-contract;templates;dotnet-new</PackageTags>
+    <PackageTags>neo;smart-contract;templates;dotnet-new;test;xunit</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
     <PackageType>Template</PackageType>
@@ -35,6 +35,8 @@
   <ItemGroup>
     <None Remove="content\NeoOracleContractProject\dotnet-tools.json" />
     <None Remove="content\NeoSmartContractEmptyProject\dotnet-tools.json" />
+    <None Remove="content\NewNeoTestProject\dotnet-tools.json" />
+    <None Remove="content\NewNeoTestProject\setup.batch" />
   </ItemGroup>
 
   <ItemGroup>

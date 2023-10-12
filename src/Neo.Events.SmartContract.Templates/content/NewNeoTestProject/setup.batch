@@ -1,0 +1,6 @@
+transfer 10000 gas genesis owner
+transfer 10000 gas genesis alice
+transfer 10000 gas genesis bob
+# TODO: Change "<Enter Nef Filename>" with the nef filename. Also uncomment the line below.
+#contract deploy <Enter Nef Filename>
+checkpoint create ./bin/checkpoints/contract-deployed -f
