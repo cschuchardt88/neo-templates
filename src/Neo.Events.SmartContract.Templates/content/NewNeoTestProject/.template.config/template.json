@@ -29,10 +29,13 @@
       "datatype": "choice",
       "choices": [
         {
+          "choice": "3.6.17"
+        },
+        {
           "choice": "3.5.20"
         }
       ],
-      "defaultValue": "3.5.20",
+      "defaultValue": "3.6.17",
       "replaces": "TemplateExpressVersion"
     },
     "ContractName": {
