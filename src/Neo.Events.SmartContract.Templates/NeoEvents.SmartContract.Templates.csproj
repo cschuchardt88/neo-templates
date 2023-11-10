@@ -33,13 +33,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="content\NeoOracleContractProject\dotnet-tools.json" />
-    <None Remove="content\NeoSmartContractEmptyProject\dotnet-tools.json" />
-    <None Remove="content\NewNeoTestProject\dotnet-tools.json" />
-    <None Remove="content\NewNeoTestProject\setup.batch" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="README.md" Pack="true" PackagePath="" />
     <None Include="neo.png" Pack="true" PackagePath="" />
   </ItemGroup>
