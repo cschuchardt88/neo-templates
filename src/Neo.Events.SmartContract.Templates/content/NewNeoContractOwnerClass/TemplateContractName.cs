@@ -16,13 +16,13 @@ namespace NewNeoContractOwnerClass;
 [ManifestExtra("Version", "<Version String Here>")]
 [ContractSourceCode("https://github.com/cschuchardt88/neo-templates")]
 [ContractPermission("*", "*")]
-public class TemplateContractName : Nep17Token
+public class TemplateContractName : SmartContract
 {
     #region Owner
 
     private const byte Prefix_Owner = 0xff;
 
-    [InitialValue("NUuJw4C4XJFzxAvSZnFTfsNoWZytmQKXQP", Neo.SmartContract.ContractParameterType.Hash160)]
+    [InitialValue("<Add Your Address Here>", Neo.SmartContract.ContractParameterType.Hash160)]
     private static readonly UInt160 InitialOwner = default;
 
     [Safe]
@@ -66,7 +66,11 @@ public class TemplateContractName : Nep17Token
     public static void OnDeployment(object data, bool update)
     {
         if (update)
+        {
+            // Add logic for fixing contract on update
             return;
+        }
+        // Add logic here for 1st time deployed
     }
 
     public static bool Update(ByteString nefFile, string manifest)

@@ -12,7 +12,7 @@ namespace NeoOracleContractProject;
 [ManifestExtra("Author", "TemplateContractAuthor")]
 [ManifestExtra("Description", "TemplateContractDescription")]
 [ManifestExtra("Email", "TemplateContractEmail")]
-[ManifestExtra("Version", "<Version String Here>")]
+[ManifestExtra("Version", "1.0.0.0")]
 [ContractSourceCode("https://github.com/cschuchardt88/neo-templates")]
 [ContractPermission("*", "*")]
 public class TemplateContractName : SmartContract
@@ -47,6 +47,7 @@ public class TemplateContractName : SmartContract
         Oracle.Request(requestUrl, "$.record.propertyName", "onOracleResponse", null, Oracle.MinimumResponseFee);
     }
 
+    // This method is called after the Oracle receives response from requested URL
     public static void OnOracleResponse(string requestedUrl, object userData, OracleResponseCode oracleResponse, string jsonString)
     {
         if (Runtime.CallingScriptHash != Oracle.Hash)
@@ -64,15 +65,21 @@ public class TemplateContractName : SmartContract
     public static void OnDeployment(object data, bool update)
     {
         if (update)
+        {
+            // Add logic for fixing contract on update
             return;
+        }
+        // Add logic here for 1st time deployed
     }
 
+    // TODO: Allow ONLY contract owner to call update
     public static bool Update(ByteString nefFile, string manifest)
     {
         ContractManagement.Update(nefFile, manifest);
         return true;
     }
 
+    // TODO: Allow ONLY contract owner to call destroy
     public static bool Destroy()
     {
         ContractManagement.Destroy();

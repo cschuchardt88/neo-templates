@@ -22,9 +22,9 @@ public class TemplateContractName : Nep17Token
 {
     #region Owner
 
-    private const byte Prefix_Owner = 0x02;
+    private const byte Prefix_Owner = 0xff;
 
-    [InitialValue("NUuJw4C4XJFzxAvSZnFTfsNoWZytmQKXQP", Neo.SmartContract.ContractParameterType.Hash160)]
+    [InitialValue("<Add Your Address Here>", Neo.SmartContract.ContractParameterType.Hash160)]
     private static readonly UInt160 InitialOwner = default;
 
     [Safe]
@@ -61,9 +61,9 @@ public class TemplateContractName : Nep17Token
 
     #region Minter
 
-    private const byte Prefix_Minter = 0x03;
+    private const byte Prefix_Minter = 0xfd;
 
-    [InitialValue("NUuJw4C4XJFzxAvSZnFTfsNoWZytmQKXQP", Neo.SmartContract.ContractParameterType.Hash160)]
+    [InitialValue("<Add Your Address Here>", Neo.SmartContract.ContractParameterType.Hash160)]
     private static readonly UInt160 InitialMinter = default;
 
     [Safe]
@@ -111,7 +111,7 @@ public class TemplateContractName : Nep17Token
     public override byte Decimals() => 8;
 
     [Safe]
-    public override string Symbol() => "EXAMPLE";
+    public override string Symbol() => "<Add Symbol Name Here>";
 
     public static new void Burn(UInt160 account, BigInteger amount)
     {
@@ -134,6 +134,7 @@ public class TemplateContractName : Nep17Token
         return true;
     }
 
+    // NOTE: Allow NEP-17 tokens to be received for this contract
     public static void OnNEP17Payment(UInt160 from, BigInteger amount, object data)
     {
         // TODO: Add logic

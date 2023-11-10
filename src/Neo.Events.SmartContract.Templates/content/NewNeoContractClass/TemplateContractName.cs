@@ -19,15 +19,21 @@ public class TemplateContractName : SmartContract
     public static void OnDeployment(object data, bool update)
     {
         if (update)
+        {
+            // Add logic for fixing contract on update
             return;
+        }
+        // Add logic here for 1st time deployed
     }
 
+    // TODO: Allow ONLY contract owner to call update
     public static bool Update(ByteString nefFile, string manifest)
     {
         ContractManagement.Update(nefFile, manifest);
         return true;
     }
 
+    // TODO: Allow ONLY contract owner to call destroy
     public static bool Destroy()
     {
         ContractManagement.Destroy();
