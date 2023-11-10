@@ -10,7 +10,7 @@ namespace NewNeoContractClass;
 [ManifestExtra("Author", "<Your Name Or Company Here>")]
 [ManifestExtra("Description", "<Description Here>")]
 [ManifestExtra("Email", "<Your Public Email Here>")]
-[ManifestExtra("Version", "<Version String Here>")]
+[ManifestExtra("Version", "1.0.0.0")]
 [ContractSourceCode("https://github.com/cschuchardt88/neo-templates")]
 [ContractPermission("*", "*")]
 public class TemplateContractName : SmartContract

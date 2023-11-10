@@ -14,7 +14,7 @@ namespace NewNeoNep17ContractClass;
 [ManifestExtra("Author", "<Your Name Or Company Here>")]
 [ManifestExtra("Description", "<Description Here>")]
 [ManifestExtra("Email", "<Your Public Email Here>")]
-[ManifestExtra("Version", "<Version String Here>")]
+[ManifestExtra("Version", "1.0.0.0")]
 [ContractSourceCode("https://github.com/cschuchardt88/neo-templates")]
 [ContractPermission("*", "*")]
 [SupportedStandards("NEP-17")]
@@ -24,7 +24,7 @@ public class TemplateContractName : Nep17Token
 
     private const byte Prefix_Owner = 0xff;
 
-    [InitialValue("<Add Your Address Here>", Neo.SmartContract.ContractParameterType.Hash160)]
+    [InitialValue("NUuJw4C4XJFzxAvSZnFTfsNoWZytmQKXQP", Neo.SmartContract.ContractParameterType.Hash160)]
     private static readonly UInt160 InitialOwner = default;
 
     [Safe]
@@ -63,7 +63,7 @@ public class TemplateContractName : Nep17Token
 
     private const byte Prefix_Minter = 0xfd;
 
-    [InitialValue("<Add Your Address Here>", Neo.SmartContract.ContractParameterType.Hash160)]
+    [InitialValue("NUuJw4C4XJFzxAvSZnFTfsNoWZytmQKXQP", Neo.SmartContract.ContractParameterType.Hash160)]
     private static readonly UInt160 InitialMinter = default;
 
     [Safe]
@@ -111,7 +111,7 @@ public class TemplateContractName : Nep17Token
     public override byte Decimals() => 8;
 
     [Safe]
-    public override string Symbol() => "<Add Symbol Name Here>";
+    public override string Symbol() => "EXAMPLE";
 
     public static new void Burn(UInt160 account, BigInteger amount)
     {
