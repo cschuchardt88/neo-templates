@@ -8,7 +8,7 @@ namespace NewNeoTestProject.Contracts;
 internal interface UT_ITemplateContractName
 {
     /*
-      Note: That this method names are case sensitive.
+      Note: That method names are case sensitive.
             First character must be lowercase.
     */
     string sayHello(string name);
